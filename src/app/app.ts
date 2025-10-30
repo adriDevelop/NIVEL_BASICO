@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { TwoWayDataBinding } from "./components/two-way-data-binding/two-way-data-binding";
+import { NgClassComponent } from "./components/ng-class-component/ng-class-component";
 
 @Component({
   selector: 'app-root',
-  imports: [TwoWayDataBinding],
+  imports: [NgClassComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
