@@ -1,0 +1,12 @@
+/* archivo CSS asociado */
+label, input {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contenedor{
+    text-align: start;
+    padding: 50px;
+    background-color: darkgray;
+    border-radius: 20px;
+}

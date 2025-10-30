@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { EventBinding } from "./components/event-binding/event-binding";
+import { TwoWayDataBinding } from "./components/two-way-data-binding/two-way-data-binding";
 
 @Component({
   selector: 'app-root',
-  imports: [ EventBinding],
+  imports: [TwoWayDataBinding],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
