@@ -1,0 +1,13 @@
+
+<div class="imagen">
+    @if (esVisible) {
+        <img src="/img/manzana.jpg" alt="manzana">
+    }@else {
+        <p>Ha desaparecido la imagen</p>
+    }
+</div>
+
+
+<div class="button">
+    <button type="button" class="btn btn-dark" (click)="mostrar()">pulsame</button>
+</div>

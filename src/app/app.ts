@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { NgClassComponent } from "./components/ng-class-component/ng-class-component";
-import { NgStyleComponent } from "./components/ng-style-component/ng-style-component";
+import { NgIfComponent } from "./components/ng-if-component/ng-if-component";
 
 @Component({
   selector: 'app-root',
-  imports: [NgStyleComponent],
+  imports: [NgIfComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
