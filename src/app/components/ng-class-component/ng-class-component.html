@@ -1,7 +1,16 @@
-<p (ngClass)=aClases>Deep Purple</p>
+<div class="container">
+
+
+<p class={{aClases[1]}}>Deep Purple</p>
 
 <p [class]=aClases[2]>stock: {{stock}}</p>
 
 <!-- Dependiendo de una condicion true o false queremos aplicar una u otra clase para ello vamos a usar la directiva
      ng-class -->
 
+<p [ngClass] = "stock > 0 ? aClases[1] : aClases[2]">stock : {{stock}}</p>
+
+<!-- <p [ngClass]="[aClases[3], stock > 0 ? aClases[1]: , stock <= 0 ? aClases[3] : null]"> stock: {{stock}} </p> -->
+ 
+
+</div>

@@ -1,0 +1,34 @@
+<p [ngStyle]="{
+    'background-color': colorFondo,
+    'padding': miPadding,
+    'color': colorTexto,
+    'font-size.px': tamanoTexto
+}">
+    Genesis es magnífico
+</p>
+
+<div [ngStyle]="{
+    'gap': '2px',
+    'width': 'inherit', 
+    'height': 'inherit',
+    'display': 'flex',
+    'justify-content': 'center',
+    'align-items': 'center'
+}">
+    <!-- Hacer que el texto aumente y dismuya -->
+    <button class="btn btn-primary" (click)=aumentarTexto()>Agrandar +1</button>
+    <button class="btn btn-primary" (click)=disminuirTexto() >Disminuye -1</button>
+</div>
+
+<div [ngStyle]="{
+    'gap': '2px',
+    'width': 'inherit', 
+    'height': 'inherit',
+    'display': 'flex',
+    'justify-content': 'center',
+    'align-items': 'center',
+    'margin-top': '7px'
+}">
+    <!-- Escribe el color y que cambie -->
+    <input type="text" [(ngModel)]=colorTexto (change)="cambiarColor(colorTexto)">
+</div>
