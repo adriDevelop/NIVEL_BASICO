@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { PropertyBinding } from "../property-binding/property-binding";
+
 
 @Component({
   selector: 'app-one-way-binding',
-  imports: [PropertyBinding],
+  imports: [],
   templateUrl: './one-way-binding.html',
   styleUrl: './one-way-binding.css',
 })

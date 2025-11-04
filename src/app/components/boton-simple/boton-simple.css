@@ -1,0 +1,19 @@
+.navs-to-categories{
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    border-bottom: #dddddd solid 1px;
+}
+
+a:hover h5{
+    color: purple;
+}
+
+h5{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}

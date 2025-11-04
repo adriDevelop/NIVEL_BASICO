@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NgIfComponent } from "./components/ng-if-component/ng-if-component";
+import { NgForComponent } from "./components/ng-for-component/ng-for-component";
 
 @Component({
   selector: 'app-root',
-  imports: [NgIfComponent],
+  imports: [NgForComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

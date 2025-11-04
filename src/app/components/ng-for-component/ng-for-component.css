@@ -1,0 +1,6 @@
+.nuestras-categorias{
+    display:flex;
+    padding: 8rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
